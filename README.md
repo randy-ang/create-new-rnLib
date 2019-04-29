@@ -1,14 +1,11 @@
-# create-new-rnLib
-example on how to create a bridge between Java and react-native
 
-import test from 'create-new-rnLib';
+# p2p call with Cisco Remote Mobile Expert
 
-// haven't figured out how to use the traditional return, so I used promise instead
+## Usage
+```javascript
+import RNBsimVideoBanking from 'react-native-bsim-video-banking';
 
-// simple function to add 2 values
-
-// will try to use ReadableMap in the future
-
-test.testing(1 /** first int*/ , 2 /** second int */).then((resolve) => {
-  // do something
-});
+// TODO: What to do with the module?
+RNBsimVideoBanking;
+```
+  

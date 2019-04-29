@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bsimVideoBanking">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <service android:name="com.alicecallsbob.assist.sdk.core.AssistService"/>
+        <meta-data android:name="assist-host" android:value=""/> <meta-data android:name="assist-port" android:value="8080"/> <meta-data android:name="assist-secure" android:value="false"/>
+    </application>
+</manifest>
