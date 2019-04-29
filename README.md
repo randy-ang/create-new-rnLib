@@ -2,7 +2,9 @@
 
 in your code:
 
-import anyName /** or specific module, like {add} in this case */ from 'create-new-rnLib' /** name of library */;
+// import {specificModule}, orWhole from 'libraryName';
+
+import anyName from 'create-new-rnLib';
 
 // I haven't found a way to get the value from return; Instead, I used promise to pass on values
 
